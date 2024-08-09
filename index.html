@@ -11,6 +11,9 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
@@ -24,16 +27,23 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">About</a>
+              <a class="nav-link active" aria-current="page" href="./about.html"
+                >About</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#"> Show Videos </a>
+              <a class="nav-link active" href="./videos.html"> Show Videos </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="./contact.html"
                 >Contact</a
               >
             </li>
@@ -48,8 +58,12 @@
                 Improvisers
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Active</a></li>
-                <li><a class="dropdown-item" href="#">Alumni</a></li>
+                <li>
+                  <a class="dropdown-item" href="./active.html">Active</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./alumni.html">Alumni</a>
+                </li>
               </ul>
             </li>
           </ul>
@@ -57,19 +71,22 @@
       </div>
     </nav>
     <h1>Amuse Bouche Improv Comedy</h1>
-    <h2>Est. 2007</h2>
+    <div id="logoContainer">
+      <img src="images/ABLogo.png" />
+    </div>
+    <h2>est. 2007</h2>
     <h3>Improvisers by chance. Sisters by choice.</h3>
     <!--Carousel-->
     <div id="carouselExample" class="carousel slide">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="images/ABLogo.png" class="d-block w-100" alt="..." />
+          <img src="images/PRPhoto_013.jpg" class="d-block" alt="..." />
         </div>
         <div class="carousel-item">
-          <img src="images/ABLogo.png" class="d-block w-100" alt="..." />
+          <img src="images/PRPhoto_014.jpg" class="d-block" alt="..." />
         </div>
         <div class="carousel-item">
-          <img src="images/ABLogo.png" class="d-block w-100" alt="..." />
+          <img src="images/PRPhoto_015.jpg" class="d-block" alt="..." />
         </div>
       </div>
       <button
@@ -104,6 +121,7 @@
         control the organization and is not responsible for the organization’s
         contracts, acts or omissions.
       </p>
+      <p>© 2024 Amuse Bouche</p>
     </div>
   </body>
 </html>

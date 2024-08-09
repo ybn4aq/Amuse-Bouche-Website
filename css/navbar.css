@@ -1,0 +1,21 @@
+#navbarNav {
+  background-color: white;
+}
+
+.nav-link {
+  color: black !important;
+}
+
+.navbar-nav .dropdown-menu {
+  background-color: black;
+}
+
+.dropdown-item {
+  color: white;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  color: #800020;
+  background-color: white;
+}
