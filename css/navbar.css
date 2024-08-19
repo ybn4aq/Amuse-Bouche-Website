@@ -19,3 +19,26 @@
   color: #800020;
   background-color: white;
 }
+
+@media (max-width: 768px) {
+  .navbar {
+    display: flex !important;
+  }
+
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+
+  .navbar-toggler {
+    margin-left: auto;
+  }
+
+  .navbar-collapse {
+    display: none;
+  }
+
+  .navbar-toggler.collapsed ~ .navbar-collapse {
+    display: block;
+  }
+}
+
