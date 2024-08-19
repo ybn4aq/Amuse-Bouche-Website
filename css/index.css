@@ -36,11 +36,21 @@ h3 {
   font-size: 1.2rem;
 }
 
+#tagline {
+  margin-bottom: 20px;
+}
+
+.upcoming-shows-container p {
+  color: white;
+  text-align: center;
+}
+
 .carousel-item img {
   width: 90%;
-  height: 100vh;
-  object-fit: cover;
+  height: 90vh;
+  object-fit: scale-down; 
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 768px) {
