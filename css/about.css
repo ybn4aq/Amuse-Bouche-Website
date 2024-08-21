@@ -1,0 +1,65 @@
+body {
+  background-color: #800020;
+  color: #000000;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+h1,
+h2,
+h3,
+p {
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px 0;
+  padding: 0 10px;
+}
+
+.container img {
+  width: 50%;
+  max-width: 400px;
+  margin: 0 20px;
+}
+
+.container p {
+  width: 45%;
+  text-align: left;
+}
+
+#wiab-container,
+#auditions-container {
+  flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .container img,
+  .container p {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+  }
+}
