@@ -25,19 +25,15 @@
     display: flex !important;
   }
 
+  .navbar-toggler {
+    border-color: rgba(0, 0, 0, 0.1);
+  }
+
   .navbar-collapse {
     justify-content: flex-end;
   }
 
-  .navbar-toggler {
-    margin-left: auto;
-  }
-
-  .navbar-collapse {
-    display: none;
-  }
-
   .navbar-toggler.collapsed ~ .navbar-collapse {
-    display: block;
+    display: block !important;
   }
 }
