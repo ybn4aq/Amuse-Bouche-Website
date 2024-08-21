@@ -1,0 +1,12 @@
+h1,
+p {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#contact-p {
+    font-size: larger;
+    display: block flex;
+}
