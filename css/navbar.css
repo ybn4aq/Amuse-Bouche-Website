@@ -1,13 +1,15 @@
+/* Navbar styles */
 #navbarNav {
   background-color: white;
 }
 
 .nav-link {
   color: black !important;
+  text-align: center;
 }
 
 .navbar-nav .dropdown-menu {
-  background-color: black;
+  background-color: #800020;
 }
 
 .dropdown-item {
@@ -21,19 +23,20 @@
 }
 
 @media (max-width: 768px) {
-  .navbar {
-    display: flex !important;
-  }
+  /* Display the navbar on mobile */
 
+  /* Ensure the toggler icon is responsive */
   .navbar-toggler {
     border-color: rgba(0, 0, 0, 0.1);
   }
 
+  /* Ensure the dropdown opens correctly on small screens */
   .navbar-collapse {
     justify-content: flex-end;
   }
 
-  .navbar-toggler.collapsed ~ .navbar-collapse {
-    display: block !important;
+  /* Control the navbar behavior */
+  .navbar-toggler.collapsed + .navbar-collapse {
+    display: none;
   }
 }
