@@ -1,4 +1,3 @@
-/* Navbar styles */
 #navbarNav {
   background-color: white;
 }
@@ -23,19 +22,14 @@
 }
 
 @media (max-width: 768px) {
-  /* Display the navbar on mobile */
-
-  /* Ensure the toggler icon is responsive */
   .navbar-toggler {
     border-color: rgba(0, 0, 0, 0.1);
   }
 
-  /* Ensure the dropdown opens correctly on small screens */
   .navbar-collapse {
     justify-content: flex-end;
   }
 
-  /* Control the navbar behavior */
   .navbar-toggler.collapsed + .navbar-collapse {
     display: none;
   }
