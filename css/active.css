@@ -15,6 +15,14 @@ h2 {
   margin-bottom: 20px;
 }
 
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
 hr {
   color: white;
   border: none;
@@ -41,5 +49,50 @@ hr {
 
   .card {
     max-width: 100%;
+  }
+}
+
+.card-img-top {
+  width: 80%;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.card {
+  width: 80%;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+img,
+.card {
+  max-width: 100%;
+  height: auto;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.row-cols-1.row-cols-md-3.g-4 {
+  margin-left: 0;
+  margin-right: 0;
+  justify-content: space-around;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
   }
 }
